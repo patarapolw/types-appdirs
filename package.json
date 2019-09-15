@@ -1,0 +1,21 @@
+{
+  "name": "types-appdirs",
+  "version": "1.0.0",
+  "description": "TypeScript definition for appdirs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "build": "tsc -p tsconfig.lib.json"
+  },
+  "keywords": [
+    "appdirs",
+    "types"
+  ],
+  "author": "Pacharapol Withayasakpunt",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patarapolw/types-appdirs.git"
+  }
+}
